@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>七七的太阳系 · 支持</title>
+<style>
+  :root {
+    --bg: #05070f;
+    --panel: rgba(255,255,255,.05);
+    --border: rgba(255,255,255,.14);
+    --text: #e8ecf8;
+    --dim: #97a0bd;
+    --gold: #ffd44f;
+    --blue: #7fb2ff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif;
+    line-height: 1.75;
+    padding: 0 20px 80px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+
+  header {
+    text-align: center;
+    padding: 72px 0 56px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 48px;
+  }
+  .logo {
+    width: 104px; height: 104px;
+    border-radius: 22px;
+    margin: 0 auto 24px;
+    display: block;
+    box-shadow: 0 12px 40px rgba(255,180,60,.22);
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  .sub { color: var(--dim); font-size: 15px; }
+
+  h2 {
+    font-size: 19px;
+    margin: 44px 0 18px;
+    padding-left: 12px;
+    border-left: 3px solid var(--gold);
+    letter-spacing: 1px;
+  }
+  p { color: var(--dim); margin-bottom: 14px; }
+  strong { color: var(--text); font-weight: 600; }
+
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 22px 24px;
+    margin-bottom: 18px;
+  }
+  .card p:last-child { margin-bottom: 0; }
+
+  .pill {
+    display: inline-block;
+    background: rgba(255,212,79,.14);
+    color: var(--gold);
+    border: 1px solid rgba(255,212,79,.34);
+    border-radius: 20px;
+    padding: 3px 13px;
+    font-size: 13px;
+    margin-right: 8px;
+    margin-bottom: 6px;
+  }
+  .pill.blue {
+    background: rgba(127,178,255,.13);
+    color: var(--blue);
+    border-color: rgba(127,178,255,.32);
+  }
+
+  a { color: var(--blue); text-decoration: none; border-bottom: 1px solid rgba(127,178,255,.32); }
+  a:hover { border-bottom-color: var(--blue); }
+
+  ol, ul { color: var(--dim); padding-left: 22px; margin-bottom: 14px; }
+  li { margin-bottom: 9px; }
+
+  footer {
+    margin-top: 60px;
+    padding-top: 28px;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    color: #6b7490;
+    font-size: 13px;
+  }
+  code {
+    background: rgba(255,255,255,.08);
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: var(--gold);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <img class="logo" src="icon.png" alt="七七的太阳系图标">
+  <h1>七七的太阳系</h1>
+  <p class="sub">把整座太阳系装进口袋 · 完全离线 · 无广告 · 无内购</p>
+</header>
+
+<h2>这是什么</h2>
+<p>
+  一款 iOS 太阳系 3D 互动应用。拖拽旋转视角、双指缩放，点一下任意天体就能追上它，
+  查看它的档案数据与趣味知识。包含太阳、八大行星、冥王星（带 5 颗卫星）与哈雷彗星。
+</p>
+<div>
+  <span class="pill">完全离线</span>
+  <span class="pill">无广告</span>
+  <span class="pill">无内购</span>
+  <span class="pill">不收集数据</span>
+  <span class="pill blue">iPhone &amp; iPad</span>
+</div>
+
+<h2>常见问题</h2>
+
+<div class="card">
+  <p><strong>需要联网吗？</strong></p>
+  <p>不需要。App 完全离线运行，不请求任何网络接口，也不需要登录。</p>
+</div>
+
+<div class="card">
+  <p><strong>会收集我的信息吗？</strong></p>
+  <p>不会。App 不含任何第三方统计、广告或追踪 SDK，不收集任何个人数据。</p>
+</div>
+
+<div class="card">
+  <p><strong>为什么我的行星在乱动？</strong></p>
+  <p>那不是故障。点「宇宙混乱」会随机触发太阳耀斑、时间倒流、行星舞会、小行星带爆发四种效果，
+  其中时间倒流会让所有行星反向公转。再点一次即可恢复。</p>
+</div>
+
+<div class="card">
+  <p><strong>陨石一定要打到行星吗？</strong></p>
+  <p>点「陨石突袭」后，陨石会自动追踪目标行星并撞上去。如果它没能追上（比如目标跑得远），
+  会安静消失而不会凭空炸开——这样你看到的每一次撞击都是真的命中。</p>
+</div>
+
+<div class="card">
+  <p><strong>支持哪些设备？</strong></p>
+  <p>需要 iOS 17.0 或更高版本。支持 iPhone 与 iPad，横竖屏均可运行，iPad 会自动启用更宽的主从布局。</p>
+</div>
+
+<div class="card">
+  <p><strong>行星数据准吗？</strong></p>
+  <p>直径、公转周期、卫星数量等取自公开的天文数据；冷知识为科普整理，
+  比例做了适当夸张以便观察，不是严格等比。</p>
+</div>
+
+<h2>联系</h2>
+<div class="card">
+  <p>遇到问题、想要新功能，或者单纯想说说想法，都可以联系：</p>
+  <p>📧 <a href="mailto:yhx.dmu@gmail.com">yhx.dmu@gmail.com</a></p>
+  <p style="margin-top:10px">
+    也欢迎在 <a href="https://github.com/nx7tq9dk46-web/QiqiSolarSystem/issues" target="_blank" rel="noopener">GitHub Issues</a> 提issue，
+    我会逐条看。
+  </p>
+</div>
+
+<h2>隐私说明</h2>
+<div class="card">
+  <p>本App 不收集、不存储、不上传任何用户数据。没有账号体系，没有设备标识符读取，
+  没有第三方 SDK。用户的所有操作仅在设备本地内存中进行，App 关闭后即释放。</p>
+</div>
+
+<footer>
+  七七的太阳系 v1.0 · 2026 Haixia Yu<br>
+  <span style="opacity:.7">Made with SwiftUI + SceneKit</span>
+</footer>
+
+</div>
+</body>
+</html>
